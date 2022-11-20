@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.contenedor .background {
+    background-color: #400404;
+    justify-self: stretch;
+    align-content: center;
+    align-self: stretch;
+}
+.contenedor .background-white {
+    background-color: aliceblue;
+    justify-self: stretch;
+    align-content: center;
+    align-self: stretch;
+}
+
+
+header {
+
+    height: 150px;
+    background-color: aliceblue;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+
+@font-face {
+
+    font-family: kanit;
+    src: url(../font/Kanit.ttf);
+
+}
+
+@font-face {
+
+    font-family: playfair;
+    src: url(../font/Playfair.ttf);
+
+}
+
+@font-face {
+
+    font-family: reboot;
+    src: url(../font/RebootCrush.ttf);
+
+}
+
+h1 {
+    color: rgb(36, 36, 36);
+    font-size: 4rem;
+    padding-left: 15px;
+    font-family: kanit;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: reboot;
+    padding-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1.5px aliceblue;
+}
+
+h3 {
+    color: rgb(36, 36, 36);
+    font-family: kanit;
+    padding-top: 60px;
+    font-size: 3rem;
+    text-align: left;
+    text-shadow: 0.5px 0.5px 1.5px aliceblue;
+}
+
+
+
+li {
+    list-style-type: none;
+
+}
+
+div {
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px;
+    font-family: playfair;
+
+    color: rgb(36, 36, 36);
+}
+
+
+.text{
+    font-size: 3rem;
+    font-family: playfair;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    line-height: 50px;
+    text-shadow: 0.5px 0.5px 1.5px aliceblue;
+
+}
+
+label {
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-family: playfair;
+    text-shadow: 0.5px 0.5px 1.5px aliceblue;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+
+    background-color: #400404;
+}
+
+.flex-container-for-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.flex-item {
+    flex: 50%;
+    justify-content: center;
+}
+
+
+
+footer {
+    position: relative;
+
+    padding: 1rem;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.center-box-footer {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.color-page {
+    background-color: #400404;
+}
+
+.box-footer {
+    background-color: #400404;
+    border: solid 5px #400404;
+    width: 10%;
+    border-radius: 20px;
+
+
+}
+
+.box-for-image {
+    background-color: aliceblue;
+
+    width: 100%;
+
+
+}
+
+.link {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.images-bar {
+    width: 20%;
+    height: 20%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid aliceblue;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: aliceblue;
+    color: rgb(36, 36, 36);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(104, 104, 104);
+}
+
+.container {
+
+    background-color: #400404;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    max-width: 100%;
+    width: 60%;
+
+}
+
+.article-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px;
+    justify-content: start;
+
+}
+
+hr.rounded {
+    border-top: 4px solid #400404;
+
+}
