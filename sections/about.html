@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <title>About me | LCS GameDev</title>
 </head>
 
 <body>
     <header>
-        <a href="../index.html"><h1>LCS Game Dev</h1></a> 
+        <a href="../index.html">
+            <h1>LCS Game Dev</h1>
+        </a>
 
         <nav>
             <ul>
@@ -48,48 +51,64 @@
     <main>
 
 
-        <section class="flex-container">
-            <div class="flex-item">
-                <img src="../img/pc-coffee.jpg" alt="illuminated office">
-            </div>
-            <div class="flex-item">
-                <h2> About Me</h2>
-                <p>Entertaining people is entertaining</p>
-                <p>
-                    In what other job can you spend your day drawing, dreaming and playing video games? <br>
-                    I am passionate about my work and I make games to the best of my ability.
-                    As a sole member, I strive to be a good game developer and game designer, so I can deliver the best
-                    to the client.
-                    I enjoy working with different clients and bringing their imagination to life. Contact me to learn
-                    more.
-                </p>
+
+
+        <div class="contenedor">
+            <div class="background">
+                <img src="../img/pc-coffee.jpg" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" alt="illuminated office">
             </div>
 
 
-        </section>
-        <section class="flex-container">
-            <div class="flex-item">
+            <div class="background">
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
 
+                    <h2> About Me</h2>
+                    <p>Entertaining people is entertaining</p>
+                    <p>
+                        <p class="text">Entertaining people is entertaining</p>
+                        <p class="text">
+                            In what other job can you spend your day drawing, dreaming and playing video games?
+                            <br>
+                            I am passionate about my work and I make games to the best of my ability.
+                            As a sole member, I strive to be a good game developer and game designer, so I can
+                            deliver the best
 
-                <h2> Videogame development teacher</h2>
-
-                <p>
-                    In my free time I give classes internationally in Spanish to students in particular.
-                    You can see my profile and reviews here
-                    <a class="link" href="https://www.classgap.com/es/tutor/lorenzo-301594" target="_blank"
-                        rel="noopener noreferrer">https://www.classgap.com/es/tutor/lorenzo-301594</a>
-                </p>
-            </div>
-
-            <div class="flex-item">
-                <div class="box-for-image">
-                    <img src="../img/classgap.png" alt="picture saying classgap">
+                        </p>
                 </div>
-
             </div>
-        </section>
-    </main>
 
+
+
+
+
+
+
+            <div class="background">
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+
+                    <h2> Videogame development teacher</h2>
+
+                    <p>
+                        <p class="text">
+                            In my free time I give classes internationally in Spanish to students in particular.
+                            You can see my profile and reviews here
+                            <a class="link" href="https://www.classgap.com/es/tutor/lorenzo-301594" target="_blank"></a>
+
+                        </p>
+                </div>
+            </div>
+
+
+            <div class="background-white">
+                <img src="../img/classgap.png" data-aos="fade-left" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" alt="picture saying classgap">
+            </div>
+        </div>
+
+    </main>
 
     <footer>
 
@@ -118,6 +137,11 @@
 
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

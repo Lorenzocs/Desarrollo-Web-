@@ -39,6 +39,29 @@ main {
 
 }
 
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, [col-start] 1fr);
+
+    justify-items: center;
+    align-items: center;
+}
+
+
+.contenedor .background {
+    background-color: #400404;
+    justify-self: stretch;
+    align-content: center;
+    align-self: stretch;
+}
+
+.contenedor .background-white {
+    background-color: aliceblue;
+    justify-self: stretch;
+    align-content: center;
+    align-self: stretch;
+}
+
 h1 {
     color: rgb(36, 36, 36);
     font-size: 4rem;
@@ -80,14 +103,15 @@ a {
     font-family: playfair;
 
     color: rgb(36, 36, 36);
-    
+
 }
 
-button{
+button {
     border: none;
     background-color: transparent;
     transition: 0.5s;
 }
+
 button:hover {
     color: rgb(171, 37, 37);
     transform: scale(1.3);
@@ -191,8 +215,8 @@ img {
 }
 
 .images-bar {
-    width: 20%;
-    height: 20%;
+    width: 40%;
+    height: 40%;
 }
 
 input[type=text],
@@ -248,4 +272,105 @@ input[type=submit]:hover {
 hr.rounded {
     border-top: 4px solid #400404;
 
+}
+
+.contenedor-carousel {
+    text-align: center;
+    background-color: #400404;
+}
+
+@media screen and (min-width:480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+
+        font-size: 1.5rem;
+
+    }
+
+    h3 {
+
+        font-size: 1.5rem;
+
+    }
+
+    p {
+        font-size: 1.5rem;
+
+
+    }
+
+    a {
+
+        font-size: 1rem;
+
+
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+
+        font-size: 2rem;
+
+    }
+
+    h3 {
+
+        font-size: 2rem;
+
+    }
+
+    p {
+        font-size: 2rem;
+
+
+    }
+
+    a {
+
+        font-size: 1.5rem;
+
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+
+        font-size: 3rem;
+
+    }
+
+    h3 {
+
+        font-size: 3rem;
+
+    }
+
+    p {
+        font-size: 3rem;
+
+
+    }
+
+    a {
+
+        font-size: 2rem;
+
+
+    }
 }
