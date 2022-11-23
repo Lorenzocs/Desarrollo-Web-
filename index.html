@@ -2,47 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"><!-- almacena caracteres como acentos y ñ -->
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibilidad con los navegadores-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- responsive : que se adapte a otras pantallas-->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 
-    <title>Home | LCS GameDev</title>
+    <title>Home | LCS GameDev</title><!-- titulo en la pestaña-->
 
 </head>
 
 <body>
 
+    <!-- headings tags h1.2.3.4.5.6 respetan jerarquia -->
 
     <header>
-       
+        <a href="index.html">
+            <h1>LCS Game Dev</h1>
+        </a>
 
-            <a href="index.html">
-                <h1>LCS Game Dev</h1>
-           
-            </a>
-        
         <nav>
 
             <ul>
 
                 <li>
-                    <a href="index.html">Home</a>
+                    <button>
+
+                        <a href="index.html"> Home</a>
+                    </button>
+
                 </li>
                 <li>
-                    <a href="./sections/galery.html">Galery</a>
+                    <button>
+
+                        <a class="button-nav" href="./sections/galery.html">Galery</a>
+                    </button>
                 </li>
                 <li>
-                    <a href="./sections/about.html">About me</a>
+                    <button>
+
+                        <a class="button-nav" href="./sections/about.html">About me</a>
+                    </button>
                 </li>
                 <li>
-                    <a href="./sections/contact.html">Contact</a>
+                    <button>
+                        <a class="button-nav" href="./sections/contact.html">Contact</a>
+                    </button>
                 </li>
                 <li>
-                    <a href="./sections/articles.html">Articles</a>
+                    <button>
+                        <a class="button-nav" href="./sections/articles.html">Articles</a>
+                    </button>
                 </li>
 
             </ul>
@@ -53,13 +65,13 @@
 
     <main>
 
-        <div class="contenedor">
-            <div class="background">
+
+        <section class="flex-container">
+            <div class="flex-item">
                 <h2> Welcome to <br>
                     Lcs Game Dev</h2>
-
-                <p class="text">
-                    Indie Games Weblog<br>
+                <p>Indie Games Weblog</p>
+                <p>
                     This is a page to have a portfolio and show my work <br>
                     I’m Lorenzo Caballero Sollmann, I’m finishing my studies in “game design and development”. <br>
                     I have a small game on google play, nothing special, to test how is the process of uploading a game.
@@ -69,9 +81,11 @@
                     I use Unity, 3dsMax, Substance Painter, a bit Blender and I am learning Unreal
                 </p>
             </div>
-            <div class="background">
+
+            <div class="flex-item">
                 <img src="./img/office.jpeg" alt="illuminated office">
             </div>
+        </section>
 
     </main>
 
