@@ -1,5 +1,3 @@
-
-
 .center-box-footer {
     display: flex;
     width: 100%;
@@ -9,12 +7,12 @@
 }
 
 .color-page {
-    background-color: #400404;
+    background-color: $colorFondo;
 }
 
 .box-footer {
-    background-color: #400404;
-    border: solid 5px #400404;
+    background-color: $colorFondo;
+    border: solid 5px $colorFondo;
     width: 10%;
     border-radius: 20px;
 
@@ -22,7 +20,7 @@
 }
 
 .box-for-image {
-    background-color: aliceblue;
+    background-color: $colorBlancoSuave;
 
     width: 100%;
 
@@ -30,7 +28,7 @@
 }
 
 .link {
-    color: cornflowerblue;
+    color: $colorBlancoSuave;
     text-decoration: underline;
 }
 
@@ -44,14 +42,14 @@
 
 .container {
 
-    background-color: #400404;
+    background-color: $colorFondo;
     padding: 20px;
 }
 
 .card {
-    background-color: white;
-    padding: 20px;
-    max-width: 100%;
+    background-color: $colorBlancoSuave;
+    padding: 10px;
+    max-width: 90%;
     width: 60%;
     align-self: center;
 }
@@ -60,18 +58,18 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
- 
-    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     justify-content: start;
 
 }
 
 hr.rounded {
-    border-top: 4px solid #400404;
+    border-top: 4px solid $colorFondo;
 
 }
 
 .contenedor-carousel {
     text-align: center;
-    background-color: #400404;
+    background-color: $colorFondo;
 }

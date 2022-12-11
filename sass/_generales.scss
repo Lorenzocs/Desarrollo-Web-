@@ -10,18 +10,18 @@ html {
 header {
 
   height: 150px;
-  background-color: aliceblue;
+  background-color:$colorBlancoSuave ;
 }
 
 main {
-  background-color: aliceblue;
+  background-color: $colorBlancoSuave;
 }
 
 footer {
   position: relative;
 
   padding: 1rem;
-  background-color: aliceblue;
+  background-color: $colorBlancoSuave;
   text-align: center;
 }
 

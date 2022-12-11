@@ -1,27 +1,27 @@
 h1 {
-    color: rgb(36, 36, 36);
+    color: $colorNegroSuave;
     font-size: 4rem;
     padding-left: 15px;
     font-family: kanit;
 }
 
 h2 {
-    color: aliceblue;
+    color: $colorBlancoSuave;
     font-family: reboot;
     padding-top: 10px;
     font-size: 3rem;
     text-align: center;
-    text-shadow: 0.5px 0.5px 1.5px aliceblue;
+    text-shadow: 0.5px 0.5px 1.5px $colorBlancoSuave;
 }
 
 h3 {
-    color: rgb(36, 36, 36);
+    color:$colorNegroSuave;
     font-family: kanit;
 
     font-size: 3rem;
     text-align: left;
    
-    text-shadow: 0.5px 0.5px 1.5px aliceblue;
+    text-shadow: 0.5px 0.5px 1.5px $colorBlancoSuave;
 }
 
 li {
@@ -39,28 +39,28 @@ a {
     padding: 10px;
     font-family: playfair;
 
-    color: rgb(36, 36, 36);
+    color: $colorNegroSuave;
 
 }
 
 p {
     font-size: 3rem;
     font-family: playfair;
-    color: aliceblue;
+    color: $colorBlancoSuave;
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 50px;
     line-height: 50px;
-    text-shadow: 0.5px 0.5px 1.5px aliceblue;
+    text-shadow: 0.5px 0.5px 1.5px $colorBlancoSuave;
 
 }
 
 label {
     font-size: 2.5rem;
-    color: aliceblue;
+    color: $colorBlancoSuave;
     font-family: playfair;
-    text-shadow: 0.5px 0.5px 1.5px aliceblue;
+    text-shadow: 0.5px 0.5px 1.5px $colorBlancoSuave;
 }
 
 nav {
