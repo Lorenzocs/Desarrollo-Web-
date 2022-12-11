@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  height: 150px;
+  background-color: aliceblue;
+}
+
+main {
+  background-color: aliceblue;
+}
+
+footer {
+  position: relative;
+  padding: 1rem;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: rgb(171, 37, 37);
+  transform: scale(1.3);
+}
+
+@font-face {
+  font-family: kanit;
+  src: url(../font/Kanit.ttf);
+}
+@font-face {
+  font-family: playfair;
+  src: url(../font/Playfair.ttf);
+}
+@font-face {
+  font-family: reboot;
+  src: url(../font/RebootCrush.ttf);
+}
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, [col-start] 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.contenedor .background {
+  background-color: #400404;
+  justify-self: stretch;
+  align-content: center;
+  align-self: stretch;
+}
+.contenedor .background-white {
+  background-color: aliceblue;
+  justify-self: stretch;
+  align-content: center;
+  align-self: stretch;
+}
+
+h1 {
+  color: rgb(36, 36, 36);
+  font-size: 4rem;
+  padding-left: 15px;
+  font-family: kanit;
+}
+
+h2 {
+  color: aliceblue;
+  font-family: reboot;
+  padding-top: 10px;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 1.5px aliceblue;
+}
+
+h3 {
+  color: rgb(36, 36, 36);
+  font-family: kanit;
+  padding-top: 60px;
+  font-size: 3rem;
+  text-align: left;
+  text-shadow: 0.5px 0.5px 1.5px aliceblue;
+}
+
+li {
+  list-style-type: none;
+}
+
+div {
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 10px;
+  font-family: playfair;
+  color: rgb(36, 36, 36);
+}
+
+p {
+  font-size: 3rem;
+  font-family: playfair;
+  color: aliceblue;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  line-height: 50px;
+  text-shadow: 0.5px 0.5px 1.5px aliceblue;
+}
+
+label {
+  font-size: 2.5rem;
+  color: aliceblue;
+  font-family: playfair;
+  text-shadow: 0.5px 0.5px 1.5px aliceblue;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50%;
+  background-color: #400404;
+}
+
+.flex-container-for-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-item {
+  flex: 50%;
+  justify-content: center;
+}
+
+.center-box-footer {
+  display: flex;
+  width: 100%;
+  height: 5%;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.color-page {
+  background-color: #400404;
+}
+
+.box-footer {
+  background-color: #400404;
+  border: solid 5px #400404;
+  width: 10%;
+  border-radius: 20px;
+}
+
+.box-for-image {
+  background-color: aliceblue;
+  width: 100%;
+}
+
+.link {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.images-bar {
+  width: 40%;
+  height: 40%;
+}
+
+.container {
+  background-color: #400404;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  max-width: 100%;
+  width: 60%;
+}
+
+.article-flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 10px;
+  justify-content: start;
+}
+
+hr.rounded {
+  border-top: 4px solid #400404;
+}
+
+.contenedor-carousel {
+  text-align: center;
+  background-color: #400404;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid aliceblue;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: aliceblue;
+  color: rgb(36, 36, 36);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(104, 104, 104);
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 3rem;
+  }
+  a {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=estilos.css.map */

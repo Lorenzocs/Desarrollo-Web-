@@ -1,0 +1,23 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, [col-start] 1fr);
+
+    justify-items: center;
+    align-items: center;
+
+    .background {
+        background-color: #400404;
+        justify-self: stretch;
+        align-content: center;
+        align-self: stretch;
+    }
+
+    .background-white {
+        background-color: aliceblue;
+        justify-self: stretch;
+        align-content: center;
+        align-self: stretch;
+    }
+
+}
+

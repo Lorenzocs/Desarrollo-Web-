@@ -17,27 +17,18 @@ main {
     background-color: aliceblue;
 }
 
-
 @font-face {
-
     font-family: kanit;
     src: url(../font/Kanit.ttf);
-
-}
-
-@font-face {
-
+  }
+  @font-face {
     font-family: playfair;
     src: url(../font/Playfair.ttf);
-
-}
-
-@font-face {
-
+  }
+  @font-face {
     font-family: reboot;
     src: url(../font/RebootCrush.ttf);
-
-}
+  }
 
 .contenedor {
     display: grid;
