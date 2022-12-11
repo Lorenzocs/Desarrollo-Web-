@@ -84,7 +84,6 @@ h2 {
 h3 {
   color: rgb(36, 36, 36);
   font-family: kanit;
-  padding-top: 60px;
   font-size: 3rem;
   text-align: left;
   text-shadow: 0.5px 0.5px 1.5px aliceblue;
@@ -199,6 +198,7 @@ img {
   padding: 20px;
   max-width: 100%;
   width: 60%;
+  align-self: center;
 }
 
 .article-flex {
