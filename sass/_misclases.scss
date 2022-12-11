@@ -39,16 +39,18 @@
     height: 30%;
 }
 
-
-.container {
-
+.padding-color{
     background-color: $colorFondo;
     padding: 20px;
 }
 
+.container {
+
+    @extend .padding-color;
+}
+
 .card {
-    background-color: $colorBlancoSuave;
-    padding: 10px;
+    @extend .padding-color;
     max-width: 90%;
     width: 60%;
     align-self: center;

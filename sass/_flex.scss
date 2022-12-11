@@ -1,6 +1,10 @@
-.flex-container {
+.flex-row{
     display: flex;
     flex-direction: row;
+}
+
+.flex-container {
+    @extend .flex-row;
     flex-wrap: wrap;
     height: 50%;
   
@@ -9,8 +13,7 @@
 }
 
 .flex-container-for-images {
-    display: flex;
-    flex-direction: row;
+    @extend .flex-row;
     justify-content: center;
 
 }

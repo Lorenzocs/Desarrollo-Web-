@@ -46,6 +46,11 @@ button:hover {
   font-family: reboot;
   src: url(../font/RebootCrush.ttf);
 }
+.aling-correction, .contenedor .background-white, .contenedor .background {
+  align-content: center;
+  align-self: stretch;
+}
+
 .contenedor {
   display: grid;
   grid-template-columns: repeat(2, [col-start] 1fr);
@@ -55,14 +60,10 @@ button:hover {
 .contenedor .background {
   background-color: #400404;
   justify-self: stretch;
-  align-content: center;
-  align-self: stretch;
 }
 .contenedor .background-white {
   background-color: aliceblue;
   justify-self: stretch;
-  align-content: center;
-  align-self: stretch;
 }
 
 h1 {
@@ -82,11 +83,14 @@ h2 {
 }
 
 h3 {
-  color: rgb(36, 36, 36);
+  color: aliceblue;
   font-family: kanit;
   font-size: 3rem;
   text-align: left;
   text-shadow: 0.5px 0.5px 1.5px aliceblue;
+}
+h3 a {
+  color: aliceblue;
 }
 
 li {
@@ -135,17 +139,18 @@ img {
   height: 100%;
 }
 
-.flex-container {
+.flex-row, .flex-container-for-images, .flex-container {
   display: flex;
   flex-direction: row;
+}
+
+.flex-container {
   flex-wrap: wrap;
   height: 50%;
   background-color: #400404;
 }
 
 .flex-container-for-images {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -188,14 +193,12 @@ img {
   height: 30%;
 }
 
-.container {
+.padding-color, .card, .container {
   background-color: #400404;
   padding: 20px;
 }
 
 .card {
-  background-color: aliceblue;
-  padding: 10px;
   max-width: 90%;
   width: 60%;
   align-self: center;

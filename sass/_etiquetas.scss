@@ -15,13 +15,16 @@ h2 {
 }
 
 h3 {
-    color:$colorNegroSuave;
+    color:$colorBlancoSuave;
     font-family: kanit;
 
     font-size: 3rem;
     text-align: left;
    
     text-shadow: 0.5px 0.5px 1.5px $colorBlancoSuave;
+    a{
+        color: $colorBlancoSuave;
+    }
 }
 
 li {
