@@ -185,8 +185,8 @@ img {
 }
 
 .images-bar {
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
 }
 
 .container {
@@ -204,7 +204,7 @@ img {
 .article-flex {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   margin: 10px;
   justify-content: start;
 }
