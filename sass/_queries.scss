@@ -10,7 +10,7 @@
     h2 {
 
         font-size: 1.5rem;
-       
+
     }
 
     h3 {
@@ -23,7 +23,7 @@
         font-size: 1.5rem;
         padding-left: 10px;
         padding-right: 10px;
-   
+
     }
 
     a {
@@ -42,18 +42,18 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
-       
+
+
     }
 
     .flex-container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-      
+
 
     }
- 
+
 }
 
 
@@ -88,6 +88,7 @@
 
 
     }
+
     .images-bar {
         width: 100%;
         height: 100%;
@@ -97,15 +98,15 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
-       
+
+
     }
 
     .flex-container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-      
+
 
     }
 }
@@ -138,5 +139,23 @@
         font-size: 2rem;
 
 
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+    }
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, [col-start] 1fr);
+
+
+    }
+    .images-bar {
+        width: 30%;
+        height: 30%;
     }
 }
